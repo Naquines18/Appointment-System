@@ -75,16 +75,6 @@ if(isset($_POST['email']) AND isset($_POST['password']) AND isset($_POST['role']
                         if($stmt->execute()){
                             $output = array('result' => '3');
                         }else{
-                            echo $browser;
-                            echo "<br>";
-                            echo $os;
-                            echo "<br>";
-                            echo $ip;
-                            echo "<br>";
-                            echo $device;
-                            echo "<br>";
-                            echo $client_id;
-                            echo "<br>";
                             $output = "Error";
                         }
                         
